@@ -6,7 +6,7 @@ public class Main {
 		Scanner scan = new Scanner(System.in);
 
 		int value = scan.nextInt();
-		
+		//Exibir numero impar		
 		for (int i = 1; i <= value;i++) {
 			if (i % 2 != 0) {
 				System.out.println(i);
